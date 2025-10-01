@@ -10,9 +10,9 @@ const Header = () => {
                     alt='' className='rounded-full w-32' />
             </div>
             <h3 className='flex items-end gap-2 text-xl md:text-2l mb-3 font-Ovo'>
-                Hi! I'm Clara Santodomingo :D </h3>
-            <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-                creative and software developer  based in Boston.
+                Hi! I'm Clara Santodomingo :D</h3>
+            <h1 className='text-3xl sm:text-6xl lg:text-[70px] font-Ovo'>
+                software developer <br></br> based in Boston.
             </h1>
             <p>
                 Post grad is scary. Plz hire me PLZZZ

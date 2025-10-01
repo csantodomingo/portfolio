@@ -1,7 +1,7 @@
 import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import edu_icon from './edu-icon.png';
-import project_icon from './project-icon.png';
+import hobbies_icon from './hobbies-icon.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
@@ -30,7 +30,7 @@ export const assets = {
     user_image,
     code_icon,
     edu_icon,
-    project_icon,
+    hobbies_icon,
     vscode,
     firebase,
     figma,
@@ -87,9 +87,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, title: 'Languages', description: 'Python, Java, JavaScript, TypeScript' },
+    { icon: assets.edu_icon, title: 'Education', description: 'B.S. in Computer Science and Music Technology' },
+    { icon: assets.hobbies_icon, title: 'Hobbies', description: 'Climbing, baking, dance, hiking, music' }
 ];
 
 export const toolsData = [
