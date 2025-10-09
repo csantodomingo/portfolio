@@ -1,17 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --light-hover: #fcf4ff;
-  --dark-hover: #2a004a;
-  --dark-theme: #11001f;
-
-  --font-Outfit: "Outfit", sans-serif;
-  --font-Ovo: "Ovo", serif;
+.font-outfit {
+  font-family: var(--font-outfit);
+  font-weight: 300;
 }
 
-/* Optionally, set a base font for body */
-@layer base {
-  body {
-    font-family: var(--font-Outfit);
-  }
+.font-outfit-b {
+  font-family: var(--font-outfit);
+  font-weight: 400;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.green {
+  color: #07482b;
+}
+
+.burg {
+  color: #5e1104;
+}
+
+body {
+  background-color: #f1ede7;
+}
+
+.right-aligned-item {
+  float: right;
+}
+
+a:hover span {
+  text-decoration: underline;
+  color: blue !important;
 }
