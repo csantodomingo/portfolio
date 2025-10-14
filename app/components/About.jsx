@@ -16,8 +16,10 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p className='mb-10 max-w-2xl font-outfit'>
-                        I'm awesome and i love coding. Among us.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Hi, I'm Clara! I am currently in my final year at Northeastern University studying computer science and music technology.
+                        I love my rich culture which I have shared through leadership positions at the Filipino club on campus, most recently serving as president, and I am currently coding for a university-wide autograding platform to help streamline computer science courses.
+
+                        I love finding ways to connect my love of both creativity and technology, and hope to do so in future employment opportunities.
                     </p>
 
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>

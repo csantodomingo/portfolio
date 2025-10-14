@@ -28,23 +28,27 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Ohana Sports Tech Website',
+        description: 'Web Design + Development',
+        blurb: 'Currently in the process of designing and moodboarding an updated website for Ohana Sports Tech.',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Pawtograder',
+        description: 'Feature Development',
+        blurb: 'Developing features such as survey functionality and automated group formation for Pawtograder, a Khoury College wide autograding platform for computer science courses at Northeastern University.',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'RaceReady',
+        description: 'Database Design',
+        blurb: 'Designed a database schema and app prototype for RaceReady, a mobile app that streamlines the process of race registration and event organization for both runners and volunteers.',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
+        title: 'MOHAI Chinook Jargon',
         description: 'UI/UX Design',
+        blurb: 'Prototyped a new interactive for the Museum of History and Industry (MOHAI) Native American exhibit, going through the design thinking process by iterating through prototypes and gathering user feedback.',
         bgImage: '/work-4.png',
     },
 ]

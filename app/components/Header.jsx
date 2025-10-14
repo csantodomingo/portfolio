@@ -41,7 +41,7 @@ const Header = () => {
                 <Image
                     src={assets.me}
                     alt="Clara Santodomingo"
-                    className="w-180 h-auto rounded-lg"
+                    className="w-150 h-auto rounded-lg"
                     priority
                 />
             </div>

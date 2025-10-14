@@ -8,6 +8,7 @@ const Experience = () => {
             <h2 className='text-center text-5xl mb-16'>Experience</h2>
 
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
+
                 {experiences.map((experience, idx) => (
                     <ExperienceCard
                         key={idx}
