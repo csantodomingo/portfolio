@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
 
 
-            <a href="/sample-resume.pdf" download
+            <a href="/Clara_Santodomingo_Resume.pdf" download
                 className='mt-12 px-10 py-2 border rounded-full border-gray-500
                 flex items-center gap-2'>
                 my resume<Image src={assets.download_icon}
