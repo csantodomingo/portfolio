@@ -41,14 +41,6 @@ const Contact = () => {
                     <FaGithub />
                 </a>
             </div>
-
-
-            <a href="/Clara_Santodomingo_Resume.pdf" download
-                className='mt-12 px-10 py-2 border rounded-full border-gray-500
-                flex items-center gap-2'>
-                my resume<Image src={assets.download_icon}
-                    alt='' className='w-4' /></a>
-
             <p className="mt-10 text-sm text-gray-500">© {new Date().getFullYear()} Clara Santodomingo</p>
         </section>
     );

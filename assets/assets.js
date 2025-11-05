@@ -28,8 +28,14 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Ohana Sports Tech Website',
+        title: 'atelier; your fashion studio',
         description: 'Web Design + Development',
+        blurb: 'Creating an AI-powered digital wardrobe. Users can upload clothing pieces and get them analyzed through AI, then create outfits through prompts.',
+        bgImage: '/work-5.png',
+    },
+    {
+        title: 'Ohana Sports Tech Website',
+        description: 'Web Design',
         blurb: 'Currently in the process of designing and moodboarding an updated website for Ohana Sports Tech.',
         bgImage: '/work-1.png',
     },
