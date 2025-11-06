@@ -1,6 +1,6 @@
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/next";
 const outfit = Outfit({
   subsets: ["latin"],
   weight: ["100", "200", "400", "500", "600", "700"],
@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         style={{ "--font-outfit": outfit.style.fontFamily }}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );

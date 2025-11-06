@@ -28,7 +28,7 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'atelier; your fashion studio',
+        title: 'atelier; your clothing studio',
         description: 'Web Design + Development',
         blurb: 'Creating an AI-powered digital wardrobe. Users can upload clothing pieces and get them analyzed through AI, then create outfits through prompts.',
         bgImage: '/work-5.png',
